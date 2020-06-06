@@ -1,0 +1,39 @@
+<section class="form-dark mb-5">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Deixe seu recado</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <div class="card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/93.jpg');">
+        <div class="text-write rgba-stylish-strong py-5 px-5 z-depth-4">
+
+            <form action="http://192.168.99.100/api" method="POST">
+                <div class="text-center">
+                    <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase"><strong>Entre em contato</strong></h3>
+                </div>
+
+                <div class="md-form">
+                    <labbel for="nome">Nome</labbel>
+                    <input type="text" name="nome" placeholder='Digite seu nome' class="form-control">
+                </div>
+
+                <div class="md-form">
+                    <labbel for="assunto">Assunto</labbel>
+                    <input type="text" name="assunto" placeholder='Digite o assunto' class="form-control">
+                </div>
+
+                <div class="md-form">
+                    <labbel for="mensagem">Mensagem</labbel>
+                    <textarea name="mensagem" placeholder='Digite sua mensagem' class="md-textarea form-control" rows="12"></textarea>
+                </div>
+
+                <div class="row d-flex align-items-center">
+  
+                    <div class="text-center col-md-12 mt-3 mb-2">
+                        <button class="btn btn-success btn-block btn-rounded z-depth-1">Enviar</button>
+                     </div>
+                </div>
+            </form>     
+        </div>
+    </div>
+</section>
